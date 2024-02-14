@@ -16,7 +16,29 @@ body{
     box-sizing: border-box;
     margin: 0 auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav{
+    font-family: 'Anuphan', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+
+.header__nav:focus{
+    background-color: #dfa692;
+    border-radius: 10px;
+}
+
+.header__nav:hover{
+    opacity: .6;
+}
+
+.header__icons{
+    display: flex;
 }
 
 .header__link{

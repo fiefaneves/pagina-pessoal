@@ -196,3 +196,21 @@ body{
     color: #F8E6BB;
     margin: 8px 0;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background-color: #F5D5AB;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#be4d25;
+    border-radius: 10px;
+    opacity: 50%;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color:#c46949;
+}
